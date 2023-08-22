@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import mainScreen from './components/mainScreen.vue';
+  import MainScreen from './components/mainScreen.vue';
   import ReasultScreen from './components/ReasultScreen.vue';
   import coppyRightScreen from './components/coppyRightScreen.vue';
   import { shuffled } from "./utils/array";
