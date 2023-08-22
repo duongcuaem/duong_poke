@@ -1,5 +1,5 @@
 <template>
-  <main-screen v-if="statusmatch==='default'" @onStart="onHandleBeforeStart($event)"/>
+  <Main-screen v-if="statusmatch==='default'" @onStart="onHandleBeforeStart($event)"/>
   <interact-screen 
   v-if="statusmatch==='match'" 
   @onFinish="onGetResult"
@@ -18,7 +18,7 @@
   export default {
       name: "App",
       components:{
-        mainScreen,
+        MainScreen,
         InteractScreen,
         coppyRightScreen,
         ReasultScreen,
